@@ -1,0 +1,45 @@
+/* Header */
+#front-logo{
+    max-height: 35px;
+    max-width: auto;
+    margin-left: 20px;
+}
+.header{
+    display:inline-block;
+    margin-top: 0px;
+}
+#header-text{
+    font-family:"Roboto", sans-serif;
+    font-size: 10pt;
+    font-weight: 400;
+    color:rgb(79, 79, 79);
+    /* Transform will allow the text to be centered vertically */
+    transform: translateY(-50%);
+    text-decoration: none;
+    /* Margins and Padding */
+    margin-left: 10px;
+    margin-right: 10px;
+}
+input[type=text]{
+    border-radius: 20px;
+    outline-color: rgb(87, 87, 87);
+    width: 500px;
+    height: 30px;
+    transform: translateY(-25%);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* Second Section */
+.learning-selector{
+    padding: 60px 0;
+    margin:0px;
+    outline:0%;
+    background-color: rgb(42, 42, 42);
+}
+#statement-text{
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-size: 35pt;
+    padding-left: 140px;
+    color:aliceblue;
+}
