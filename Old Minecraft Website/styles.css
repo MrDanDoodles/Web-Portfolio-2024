@@ -1,0 +1,227 @@
+/* Header */
+.header-front-page{
+    padding-left: 100px;
+    position: absolute;
+    background-image: url("./images/dirt_background.png");
+    display: inline-block;
+    width: 100%;
+    height: 45px;
+}
+#minecraft-logo{
+    position: relative;
+    top: -15px;
+    height: auto;
+    width: 220px;
+    padding: 0;
+    margin: 0;
+    left: 40px;
+}
+.header-front-page a{
+    position: relative;
+    left: 40px;
+    top: -52px;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding: 0px 5px;
+    text-decoration: none;
+}
+#login{
+    color:rgb(154, 152, 255);
+    left: 300px;
+}
+/* Main Page */
+/* Video Section */
+.main-front-page{
+    background-image: url("./images/stone_background.png");
+    background-position: center center;
+    height: 1200px;
+    width: auto;
+}
+.main-front-page a{
+    color:rgb(154, 152, 255);
+    text-decoration: none;
+}
+#video-section{
+    position: absolute;
+    top: 90px;
+    left: 150px;
+}
+#video-section p{
+    position: relative;
+    color:rgb(255, 245, 240);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9.25pt;
+    top: 15x;
+}
+/* Animals Section */
+.main-front-page-purchase{
+    position: absolute;
+    top: 73px;
+    left: 830px;
+}
+.main-front-page-purchase img{
+    position: relative;
+    height: 200px;
+    width: auto;
+}
+.main-front-page-purchase #purchase{
+    position: relative;
+    left: 60px;
+    height: 90px;
+    width: auto;
+    padding: 20px 0px;
+    padding-bottom: 10px;
+}
+.main-front-page-purchase a{
+    color:rgb(154, 152, 255);
+    text-decoration: none;
+}
+.main-front-page-purchase p{
+    position: relative;
+    text-align: center;
+    color:rgb(255, 245, 240);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+}
+.main-front-page-purchase #s-1{
+    position: relative;
+    padding: 2px;
+    margin: 0px;
+    left: 2.5px;
+}
+.main-front-page-purchase #s-2{
+    position: relative;
+    top: 20px;
+    padding: 2px;
+    margin: 0px;
+    left: 2.5px;
+}
+
+
+/* ----Social Media Sections---- */
+
+/* Facebook Post */
+.facebook-section{
+    position: absolute;
+    top: 550px;
+    left: 100px;
+}
+.facebook-section #fb-logo{
+    position: relative;
+    height:35px;
+    width:auto;
+    display: inline-block;
+    left: 50px;
+    top: 25px;
+}
+.facebook-section h1{
+    color:rgb(255, 245, 240);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    transform: translateY(-10px);
+}
+.facebook-section #post{
+    position: relative;
+    height: 400px;
+    width: auto;
+    left: 50px;
+}
+.facebook-section p{
+    position: relative;
+    color:rgb(255, 245, 240);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    left: 50px;
+}
+
+/* Tumblr Section */
+.tumblr-section{
+    position: relative;
+    top: 560px;
+    left: 550px;
+}
+#tb-logo{
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+}
+.tumblr-section img{
+    height: 35px;
+    width: auto;
+    border-radius: 5px;
+}
+.tumblr-section h1{
+    transform: translateY(-10px);
+    color:rgb(255, 245, 240);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+}
+.tumblr-section li{
+    position: relative;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 245, 240);
+    font-size: 10pt;
+    padding: 20px;
+    left: -55px;
+}
+.tumblr-section li a{
+    font-size: 12t;
+    font-weight: 550;
+}
+.tumblr-section p{
+    position: relative;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 245, 240);
+    font-size: 10pt;
+    top: 4px;
+}
+
+/* Twitter Section */
+.twitter-section{
+    position: relative;
+    top: 72px;
+    left: 900px;
+}
+.twitter-section img{
+    height: 35px;
+    width: auto;
+}
+.twitter-section h1{
+    transform: translateY(-10px);
+    color:rgb(255, 245, 240);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+}
+#tw-logo{
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    transform: translateY(-5px);
+}
+.twitter-section li{
+    left: -100px;
+}
+.twitter-section li, p{
+    position: relative;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 245, 240);
+    font-size: 10pt;
+    padding: 10px;
+    left: -20px;
+}
+.twitter-section li{
+    left: -60px;
+}
+.twitter-section li>p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 245, 240);
+    font-size: 8pt;
+    padding: 0px 0px;
+    left: 0px;
+}
